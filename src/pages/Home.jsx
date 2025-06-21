@@ -65,7 +65,7 @@ const HeroWrapper = styled.section`
   width: 100%;
   height: calc(100vh - 70px);
   min-height: 40rem;
-  background: url('Hero Home Image.jpeg') center/cover no-repeat;
+  background: url('/public/hero-home.jpeg') center/cover no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
