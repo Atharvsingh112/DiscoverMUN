@@ -109,7 +109,7 @@ const Header = ({ onMenuClick }) => {
     <>
       <HeaderBar>
         <StyledLink href="/">
-          <Logo src="/DMUN WHITE LOGO.png" alt="DMUN Foundation Logo" />
+          <Logo src="/public/dmun-white-logo.png" alt="DMUN Foundation Logo" />
         </StyledLink>
         <Right>
           <MenuButton aria-label="Open menu" onClick={onMenuClick}>
