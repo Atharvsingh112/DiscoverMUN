@@ -222,26 +222,26 @@ const MenuDrawer = ({ open, onClose }) => (
 
       <MainLinks>
         <MainLink href="/">Home</MainLink>
-        <MainLink href="/src/pages/About.jsx">About</MainLink>
-        <MainLink href="/src/pages/Programs.jsx">Programs</MainLink>
-        <MainLink href="/src/pages/Advocacy.jsx">Advocacy</MainLink>   
-        <MainLink href="/src/pages/Research.jsx">Research</MainLink>
+        <MainLink href="/about">About</MainLink>
+        <MainLink href="/programs">Programs</MainLink>
+        <MainLink href="/advocacy">Advocacy</MainLink>   
+        <MainLink href="/research">Research</MainLink>
       </MainLinks>
 
       <BottomLinks>
         <BottomCol>
-          <BottomLink href="/src/pages/Integrity.jsx">Integrity</BottomLink>
-          <BottomLink href="/src/pages/TakeAction.jsx">Take Action</BottomLink>
-          <BottomLink href="/src/pages/newsroom.jsx">Newsroom</BottomLink>
+          <BottomLink href="/integrity">Integrity</BottomLink>
+          <BottomLink href="/take-action">Take Action</BottomLink>
+          <BottomLink href="/newsroom">Newsroom</BottomLink>
         </BottomCol>
         <BottomCol>
-          <BottomLink href="/src/pages/donate.jsx">Donate</BottomLink>
-          <BottomLink to="/src/pages/volunteer.jsx">Volunteer</BottomLink>
+          <BottomLink href="/donate">Donate</BottomLink>
+          <BottomLink to="/volunteer">Volunteer</BottomLink>
           <BottomLink href="/src/pages/partner.jsx">Partner</BottomLink>
         </BottomCol>
         <BottomCol>
-          <BottomLink to="/src/pages/donor-relations.jsx">Donor Relations</BottomLink>
-          <BottomLink href="/src/pages/mandate.jsx">Our Mission</BottomLink>
+          <BottomLink to="/donor-relations">Donor Relations</BottomLink>
+          <BottomLink href="/mandate">Our Mission</BottomLink>
           <BottomLink href="/src/pages/Footer#Contact us">Contact Us</BottomLink>
         </BottomCol>
       </BottomLinks>
