@@ -230,14 +230,14 @@ const MenuDrawer = ({ open, onClose }) => (
 
       <BottomLinks>
         <BottomCol>
-          <BottomLink href="/Integrity">Integrity</BottomLink>
-          <BottomLink href="/TakeAction">Take Action</BottomLink>
-          <BottomLink href="/Newsroom">Newsroom</BottomLink>
+          <BottomLink href="/integrity">Integrity</BottomLink>
+          <BottomLink href="/takeAction">Take Action</BottomLink>
+          <BottomLink href="/newsroom">Newsroom</BottomLink>
         </BottomCol>
         <BottomCol>
-          <BottomLink href="/Donate">Donate</BottomLink>
+          <BottomLink href="/donate">Donate</BottomLink>
           <BottomLink to="/volunteer">Volunteer</BottomLink>
-          <BottomLink href="/Partner">Partner</BottomLink>
+          <BottomLink href="/partner">Partner</BottomLink>
         </BottomCol>
         <BottomCol>
           <BottomLink to="/donor-relations">Donor Relations</BottomLink>
