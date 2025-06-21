@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import heroImage from '../assets/Youth Advocacy .png';
 
 const PAGE_BACKGROUND_COLOR = '#E7F1FA'; // Light blue from screenshot
 const TEXT_COLOR = '#000000';
@@ -23,7 +22,7 @@ const HeroWrapper = styled.section`
   margin-left: -50vw;
   margin-right: -50vw;
   height: 350px;
-  background: url(${heroImage}) center/cover no-repeat;
+  background: url('/Youth-Advocacy.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
