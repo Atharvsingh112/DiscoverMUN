@@ -210,7 +210,8 @@ const Donate = () => {
         <SectionTitle>WAYS TO GIVE</SectionTitle>
         <WaysToGiveGrid>
           <GiveCard>
-            <GiveCardTitle>DIRECT ONLINE GIVING</GiveCardTitle>
+            <GiveCardTitle>
+            <a href="https://donorbox.org/giving-dmun"></a>DIRECT ONLINE GIVING</GiveCardTitle>
             <GiveCardText></GiveCardText>
             <StyledLink to="#">DIRECT ONLINE GIVING</StyledLink>
           </GiveCard>
