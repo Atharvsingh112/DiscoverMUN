@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled, { keyframes } from 'styled-components';
+import heroImage from '../assets/Youth Advocacy .png';
 
 const ABBOT_BLUE = '#44b8f3';
 const DARK_BLUE = '#002147';
@@ -21,7 +22,7 @@ const AboutHeroWrapper = styled.section`
   margin-left: -50vw;
   margin-right: -50vw;
   height: 350px;
-  background: url('/Youth%20Advocacy%20.png') center/cover no-repeat;
+  background: url(${heroImage}) center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

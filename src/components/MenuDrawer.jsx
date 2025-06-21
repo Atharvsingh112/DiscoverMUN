@@ -1,5 +1,6 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 import { Link } from 'react-router-dom';
+import headerImage from '../assets/Home page Header Image.png';
 
 const slideIn = keyframes`
   from { opacity: 0; transform: translateY(-40px); }
@@ -208,7 +209,7 @@ const ArrowIcon = () => (
 const MenuDrawer = ({ open, onClose }) => (
   <Overlay open={open}>
     <MenuImagePanel aria-hidden="true">
-      <img src="/Home page Header Image.png" alt="Decorative image for menu" />
+      <img src={headerImage} alt="Decorative image for menu" />
     </MenuImagePanel>
     <MenuContent>
       <CloseRow>
